@@ -10,6 +10,6 @@ public interface StudentRpo extends JpaRepository<Stident, Long>{
 
 	Stident findByName(String name);
 	
-	//ravi added cheges for testing
+	//ravi added cheges for testing 1234
 
 }
