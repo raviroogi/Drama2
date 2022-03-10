@@ -9,5 +9,7 @@ import com.test.demo.entity.Stident;
 public interface StudentRpo extends JpaRepository<Stident, Long>{
 
 	Stident findByName(String name);
+	
+	//ravi added cheges for testing
 
 }

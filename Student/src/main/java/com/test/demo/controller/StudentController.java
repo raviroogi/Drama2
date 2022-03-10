@@ -53,4 +53,6 @@ public class StudentController {
 	List<Stident> stList= 	service.findAll();
 		return stList;
 	}
+	
+	//added by ravi in branch 1
 }
